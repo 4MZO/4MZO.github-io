@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Baby!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dialog-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="dialog-box" onclick="showPopUp('Celine I Love You', 'I Love You Because You Make Me Feel Happy At All Times. Hearing Your Name Brings Me A Happiness I Cannot Explain, Seeing Your Name Brings Me A Feeling Of Warmth And Comfort')">
+        :D
+    </div>
+    
+    <div class="dialog-box" onclick="showPopUp('I Love Your Eyes', 'I Love Those Eyes Which I Cant Wait To Get Lost In, Your Eyes Which Id Love To Stare Into For The Rest Of My Life. I Cant Wait To Look Into Them And Tell You How Much I Love You.')">
+        👀
+    </div>
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  
+
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  
+  <div class="dialog-box" onclick="showPopUp('Second Pop-up', 'This is the second pop-up dialog.')">
+        Click here to show the second pop-up
+    </div>
+  
+  
+        <script>
+        var popUpVisible = false;
+
+        function showPopUp(title, content) {
+            if (!popUpVisible) {
+                popUpVisible = true;
+                alert(title + '\n\n' + content);
+                popUpVisible = false;
+            }
+        }
+    </script>
+</body>
+</html>
